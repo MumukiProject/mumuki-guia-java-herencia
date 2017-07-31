@@ -1,9 +1,20 @@
 ---
-name: Herencia
+name: Herencia y Enumeraciones
 locale: es
 type: learning
 beta: false
-teacher_info: 
+teacher_info: ''
 language: java
 id_format: "%05d"
-order: []
+order:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
