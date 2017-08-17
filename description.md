@@ -1,4 +1,4 @@
-_¿Hoooola? ¿Mumuki? ¿Y qué hay de la herencia? ¿Podemos heredar en Java? :telephone_receiver: _
+:telephone_receiver: _¿Hoooolaa? ¿Mumuki? ¿Y qué hay de la herencia? ¿Podemos heredar en Java?_ 
 
 ¡Por supuesto!
 
