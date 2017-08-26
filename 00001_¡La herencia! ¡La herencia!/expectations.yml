@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: Llama
+  inspection: Inherits:Guanaco
+- binding: Intransitive:Llama
+  inspection: Not:DeclaresMethod:altura
