@@ -2,7 +2,7 @@ class Vicuna {
   
 }
 
-class Alpa {
+class Alpaca {
   
 }
 
