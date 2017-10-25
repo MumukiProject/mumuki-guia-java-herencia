@@ -2,4 +2,4 @@
 
 ¡Por supuesto!
 
-Aprendamos cómo hacerlo, que nuevas implicancias tiene y descubramos en el caminio algunos nuevos conceptos. ¡Seguínos!
+Aprendamos cómo hacerlo, qué nuevas implicancias tiene y descubramos en el camino algunos nuevos conceptos. ¡Seguínos!
