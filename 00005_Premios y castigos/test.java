@@ -51,5 +51,5 @@ public void un_jefe_que_falta_a_trabajar_pierde_el_sueldo_de_cuatro_horas() {
 @Test
 public void un_jefe_cobra_bono_de_1000_pesos() {
   jefeConBono.cobrarBono();
-  Assert.assertEquals(1000, jefe.dinero());
+  Assert.assertEquals(1000, jefeConBono.dinero());
 }
