@@ -2,13 +2,13 @@
 expectations:
 - binding: Jefe
   inspection: Not:DeclaresMethod:trabajar
-- binding: Pasantes
+- binding: Pasante
   inspection: Not:DeclaresMethod:trabajar
 - binding: Jefe
   inspection: Inherits:Empleado
-- binding: Pasantes
+- binding: Pasante
   inspection: Inherits:Empleado
 - binding: Jefe
   inspection: Not:DeclaresMethod:dinero
-- binding: Pasantes
+- binding: Pasante
   inspection: Not:DeclaresMethod:dinero
