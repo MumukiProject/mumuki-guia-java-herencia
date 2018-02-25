@@ -1,8 +1,21 @@
 ---
 tags: []
-layout: input_right
-editor: code
+layout: input_bottom
+editor: multiple_choice
 type: problem
 extra_visible: false
+language: text
 manual_evaluation: false
-choices: []
+choices:
+- value: No pueden instanciarse objetos de una clase abstracta
+  checked: true
+- value: Una clase abstracta debe tener únicamente métodos abstractos
+  checked: false
+- value: "`Jefe` y `Pasante` implementarán la interfaz `Empleado`"
+  checked: false
+- value: "`Jefe` y `Pasante` heredarán de la clase abstracta `Empleado`"
+  checked: true
+- value: El método `trabajar` estará definido en `Empleado`
+  checked: true
+- value: El método `trabajar` estará definido en `Jefe` y `Pasante`
+  checked: false

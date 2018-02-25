@@ -1,4 +1,2 @@
-@Test
-public void testDescriptionExample() {
-  Assert.assertTrue(true);
-}
+---
+equal: '0:3:4'
