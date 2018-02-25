@@ -13,7 +13,7 @@ public void un_pasante_gana_100_pesos_por_hora() {
 }
 
 @Test
-public void un_pasante_trabaja_tres_horas_y_gana_300_pesos() {
+public void si_un_pasante_trabaja_tres_horas_gana_300_pesos() {
   pasante.trabajar(3);
   Assert.assertEquals(300, pasante.dinero());
 }
@@ -29,7 +29,7 @@ public void un_jefe_gana_200_pesos_por_hora() {
 }
 
 @Test
-public void un_jefe_trabaja_cinco_horas_y_gana_1000_pesos() {
+public void si_un_jefe_trabaja_cinco_horas_gana_1000_pesos() {
   jefe.trabajar(5);
   Assert.assertEquals(1000, jefe.dinero());
 }
