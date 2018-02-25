@@ -1,5 +1,6 @@
 pasante = Pasante.new();
 jefe = Jefe.new();
+jefeConBono = Jefe.new();
 
 @Test
 public void un_pasante_no_tiene_gente_a_cargo() {
@@ -45,4 +46,10 @@ public void un_jefe_que_falta_a_trabajar_pierde_el_sueldo_de_cuatro_horas() {
   jefe.trabajar(5);
   jefe.faltarAlTrabajo();
   Assert.assertEquals(jefe.sueldoPorHora(), jefe.dinero());
+}
+
+@Test
+public void un_jefe_cobra_bono_de_1000_pesos() {
+  jefeConBono.cobrarBono();
+  Assert.assertEquals(1000, jefe.dinero());
 }
