@@ -1,4 +1,4 @@
-jefe = Jefe.new();
+Jefe jefe = Jefe.new();
 
 @Test
 public void un_jefe_tiene_gente_a_cargo() {
