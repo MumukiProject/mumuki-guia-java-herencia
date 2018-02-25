@@ -2,3 +2,5 @@
 expectations:
 - binding: Planta
   inspection: Inherits:Arbol
+- binding: Planta
+  inspection: Not:Implements:fotosintesis
