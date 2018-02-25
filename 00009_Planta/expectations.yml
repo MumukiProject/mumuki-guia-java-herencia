@@ -4,3 +4,5 @@ expectations:
   inspection: Inherits:Arbol
 - binding: Planta
   inspection: Not:DeclaresMethod:fotosintesis
+- binding: Planta
+  inspection: Not:DeclaresMethod:daFrutos
