@@ -16,5 +16,6 @@ public void un_arbol_aumenta_10_hojas_al_crecer() {
 @Test
 public void un_arbol_hace_fotosintesis() {
   arbol.crecer();
+  arbol.crecer();
   Assert.assertEquals(40, arbol.fotosintesis());
 }
