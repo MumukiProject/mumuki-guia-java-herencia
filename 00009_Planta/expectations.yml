@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: Planta
+  inspection: Inherits:Arbol
