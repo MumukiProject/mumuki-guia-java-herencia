@@ -27,4 +27,4 @@ Esto significa que al realizar las siguientes consultas...
 
 **super** permite reutilizar parte de la lógica de la superclase a la vez que se agrega comportamiento propio de la subclase.
 
-> ¡Terminemos con herencia! Agregá el método `fotosintesis` a `Planta` sin repetir lógica con `Arbol`.
+> ¡Último uso de herencia! Agregá el método `fotosintesis` a `Planta` sin repetir lógica con `Arbol`.
