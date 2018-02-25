@@ -1,0 +1,1 @@
+Si `Empleado` define una implementación para `trabajar` que aumenta el `dinero`, entonces `dinero` **también** tiene que estar definido en `Empleado`. ¡Los atributos pueden heredarse!

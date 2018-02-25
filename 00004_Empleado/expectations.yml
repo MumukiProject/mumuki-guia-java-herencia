@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: Jefe
+  inspection: Not:DeclaresMethod:trabajar
+- binding: Pasantes
+  inspection: DeclaresMethod:trabajar
+- binding: Jefe
+  inspection: Inherits:Empleado
+- binding: Pasantes
+  inspection: Inherits:Empleado
