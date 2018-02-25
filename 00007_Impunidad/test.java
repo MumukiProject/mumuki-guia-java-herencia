@@ -1,6 +1,6 @@
-gerente = new Gerente();
-gerenteQueFalta = new Gerente();
-jefe = new Jefe();
+Gerente gerente = new Gerente();
+Gerente gerenteQueFalta = new Gerente();
+Jefe jefe = new Jefe();
 
 @Test
 public void un_gerente_tiene_gente_a_cargo() {
