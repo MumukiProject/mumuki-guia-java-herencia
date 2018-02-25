@@ -1,5 +1,5 @@
-Pasante pasante = Pasante.new();
-Jefe jefe = Jefe.new();
+Pasante pasante = new Pasante();
+Jefe jefe = new Jefe();
 
 @Test
 public void un_pasante_no_tiene_gente_a_cargo() {
