@@ -1,5 +1,3 @@
-:telephone_receiver: _¿Hoooolaa? ¿Mumuki? ¿Y qué hay de la herencia? ¿Podemos heredar en Java?_ 
+En la guía de programación con objetos aprendimos a utilizar [herencia](https://staging.mumuki.io/lessons/227-programacion-con-objetos-herencia) y vimos cómo esa herramienta nos permite reutilizar código y evitar repetir lógica.
 
-¡Por supuesto!
-
-Aprendamos cómo hacerlo, qué nuevas implicancias tiene y descubramos en el camino algunos nuevos conceptos. ¡Seguínos!
+¡Redescubramos la herencia, ahora con tipado estático! :muscle: 

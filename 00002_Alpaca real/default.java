@@ -1,8 +1,0 @@
-class Vicuna {
-  
-}
-
-class Alpaca {
-  
-}
-

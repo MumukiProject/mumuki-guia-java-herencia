@@ -1,8 +1,0 @@
-class Guanaco {
-  
-}
-
-class Llama {
-  
-}
-
