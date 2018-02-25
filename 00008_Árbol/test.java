@@ -1,4 +1,4 @@
-arbol = new Arbol();
+Arbol arbol = new Arbol();
 
 @Test
 public void un_arbol_da_frutos() {
