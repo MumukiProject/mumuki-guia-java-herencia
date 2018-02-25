@@ -8,3 +8,5 @@ expectations:
   inspection: DeclaresMethod:trabajar
 - binding: Empleado
   inspection: DeclaresMethod:dinero
+- binding: Pasante
+  inspection: Not:DeclaresMethod:trabajar
