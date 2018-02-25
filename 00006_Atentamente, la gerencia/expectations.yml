@@ -2,3 +2,7 @@
 expectations:
 - binding: Gerente
   inspection: Inherits:Empleado
+- binding: Gerente
+  inspection: Not:DeclaresMethod:trabajar
+- binding: Gerente
+  inspection: Not:DeclaresMethod:dinero
