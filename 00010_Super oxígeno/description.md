@@ -11,7 +11,7 @@ class Despedida {
 
 class DespedidaAmistosa {
   string despedirse() {
-    return super + " amigos"
+    return super.despedirse() + " amigos"
   }
 }
 ```

@@ -17,7 +17,7 @@ public void una_planta_aumenta_5_hojas_al_crecer() {
 public void una_planta_hace_fotosintesis() {
   planta.crecer();
   planta.crecer();
-  Assert.assertEquals(220, planta.fotosintesis());
+  Assert.assertEquals(120, planta.fotosintesis());
 }
 
 @Test
