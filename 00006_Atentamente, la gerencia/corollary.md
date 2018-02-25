@@ -1,0 +1,1 @@
+Al igual que vimos en el caso del `Jefe` que podía cobrar un bono, el `Gerente` puede pagarlo: ambas funcionalidades son exclusivas a cada subclase, independientemente de quién heredan. Un `Pasante`, por ejemplo, no podrá hacer ninguna de las dos.
