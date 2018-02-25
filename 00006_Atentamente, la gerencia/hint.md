@@ -1,0 +1,1 @@
+El `Gerente` también debe poder trabajar y decirnos su dinero, ¡pero no definas esos métodos nuevamente! Aprovechá la herencia :wink: 
