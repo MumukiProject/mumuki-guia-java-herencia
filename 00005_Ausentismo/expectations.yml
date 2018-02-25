@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: Jefe
+  inspection: Not:DeclaresMethod:faltarAlTrabajo
+- binding: Pasante
+  inspection: Not:DeclaresMethod:faltarAlTrabajo
