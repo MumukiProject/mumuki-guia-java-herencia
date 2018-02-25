@@ -1,0 +1,1 @@
+Recordá que el atributo `cantidadDeHojas` puede heredarse y debe implementarse únicamente en la superclase.
