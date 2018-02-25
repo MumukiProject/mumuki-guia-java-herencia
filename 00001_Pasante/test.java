@@ -1,4 +1,4 @@
-Pasante pasante = Pasante.new();
+Pasante pasante = new Pasante();
 
 @Test
 public void un_pasante_no_tiene_gente_a_cargo() {
