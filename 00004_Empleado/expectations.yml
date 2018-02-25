@@ -4,9 +4,11 @@ expectations:
   inspection: Inherits:Empleado
 - binding: Pasante
   inspection: Inherits:Empleado
-- binding: Empleado
-  inspection: DeclaresMethod:trabajar
-- binding: Empleado
-  inspection: DeclaresMethod:dinero
 - binding: Pasante
   inspection: Not:DeclaresMethod:trabajar
+- binding: Pasante
+  inspection: Not:DeclaresMethod:dinero
+- binding: Jefe
+  inspection: Not:DeclaresMethod:trabajar
+- binding: Jefe
+  inspection: Not:DeclaresMethod:dinero
