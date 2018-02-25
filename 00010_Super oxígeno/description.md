@@ -17,12 +17,12 @@ class DespedidaAmistosa {
 ```
 
 Esto significa que al realizar las siguientes consultas...
+
 ```java
 ム despedida.despedirse();
 => "Adiós"
 ム despedidaAmistosa.despedirse();
 => "Adiós amigos"
-
 ```
 
 **super** permite reutilizar parte de la lógica de la superclase a la vez que se agrega comportamiento propio de la subclase.
