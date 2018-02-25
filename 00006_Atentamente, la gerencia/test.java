@@ -16,3 +16,9 @@ public void si_un_gerente_trabaja_seis_horas_gana_1800_pesos() {
   gerente.trabajar(6);
   Assert.assertEquals(1800, gerente.dinero());
 }
+
+@Test
+public void un_gerente_paga_bono_a_un_jefe() {
+  gerente.pagarBono(jefe);
+  Assert.assertEquals(1000, jefe.dinero());
+}
