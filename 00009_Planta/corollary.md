@@ -1,4 +1,4 @@
-Repensemos qué ocurrió en este ejercicio:
+Repasemos qué ocurrió en este ejercicio:
 
 * `Planta` hereda de `Arbol` para poder aprovechar el comportamiento que es igual a ambas clases, como `daFrutos`, `fotosintesis` y `cantidadDeHojas`.
 * `Planta` redefine los métodos cuyo comportamiento es distinto, como `crecer`.
