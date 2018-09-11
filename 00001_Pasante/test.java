@@ -13,5 +13,5 @@ public void un_pasante_gana_100_pesos_por_hora() {
 @Test
 public void si_un_pasante_trabaja_tres_horas_gana_300_pesos() {
   pasante.trabajar(3);
-  Assert.assertEquals(300, pasante.dinero());
+  Assert.assertEquals(300, pasante.getDinero());
 }

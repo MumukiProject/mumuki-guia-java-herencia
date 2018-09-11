@@ -19,3 +19,4 @@ choices:
   checked: true
 - value: El método `trabajar` estará definido en `Jefe` y `Pasante`
   checked: false
+name: Clase abstracta
