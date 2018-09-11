@@ -8,9 +8,9 @@ public void un_arbol_da_frutos() {
 @Test
 public void un_arbol_aumenta_10_hojas_al_crecer() {
   arbol.crecer();
-  Assert.assertEquals(10, arbol.cantidadDeHojas());
+  Assert.assertEquals(10, arbol.getCantidadDeHojas());
   arbol.crecer();
-  Assert.assertEquals(20, arbol.cantidadDeHojas());
+  Assert.assertEquals(20, arbol.getCantidadDeHojas());
 }
 
 @Test
