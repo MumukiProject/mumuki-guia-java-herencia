@@ -8,9 +8,9 @@ public void una_planta_da_frutos() {
 @Test
 public void una_planta_aumenta_5_hojas_al_crecer() {
   planta.crecer();
-  Assert.assertEquals(5, planta.cantidadDeHojas());
+  Assert.assertEquals(5, planta.getCantidadDeHojas());
   planta.crecer();
-  Assert.assertEquals(10, planta.cantidadDeHojas());
+  Assert.assertEquals(10, planta.getCantidadDeHojas());
 }
 
 @Test
@@ -26,5 +26,5 @@ public void una_planta_se_marchita() {
   planta.crecer();
   planta.crecer();
   planta.marchitarse();
-  Assert.assertEquals(0, planta.cantidadDeHojas());
+  Assert.assertEquals(0, planta.getCantidadDeHojas());
 }
