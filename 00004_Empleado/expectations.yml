@@ -14,3 +14,7 @@ expectations:
   inspection: Not:DeclaresMethod:dinero
 - binding: "*"
   inspection: DeclaresClass:Empleado
+- binding: Empleado
+  inspection: DeclaresTypeSignature:sueldoPorHora
+- binding: Empleado
+  inspection: DeclaresTypeSignature:genteACargo
