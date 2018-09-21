@@ -11,9 +11,11 @@ Las clases abstractas se definen utilizando la palabra clave `abstract`. Lo mism
 ```java
 abstract class Felino
 {
-  abstract void alimentarse();
-  
   abstract void correr();
+  
+  void dormir() {
+    //define el comportamiento para dormir de todos los felinos...
+  }
 }
 ```
 
@@ -22,12 +24,15 @@ Luego, las subclases *heredan* de la superclase utilizando la palabra clave `ext
 ```java
 class Gato extends Felino
 {
-  void alimentarse() {
-    //define el comportamiento para alimentarse...
-  }
-  
   void correr() {
-    //define el comportamiento para correr...
+    //define el comportamiento para correr de los gatos...
+  }
+}
+
+class Tigre extends Felino
+{
+  void correr() {
+    //define el comportamiento para correr de los tigres...
   }
 }
 ```
