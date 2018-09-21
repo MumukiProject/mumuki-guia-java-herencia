@@ -12,3 +12,5 @@ expectations:
   inspection: Not:DeclaresMethod:trabajar
 - binding: Jefe
   inspection: Not:DeclaresMethod:dinero
+- binding: "*"
+  inspection: DeclaresClass:Empleado
