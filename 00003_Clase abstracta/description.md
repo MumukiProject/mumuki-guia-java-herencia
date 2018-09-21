@@ -11,7 +11,7 @@ Las clases abstractas se definen utilizando la palabra clave `abstract`. Lo mism
 ```java
 abstract class Felino
 {
-  abstract void correr();
+  abstract void correr(); //es un método abstracto, hay que definirlo en las subclases.
   
   void dormir() {
     //define el comportamiento para dormir de todos los felinos...
