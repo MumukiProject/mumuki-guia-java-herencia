@@ -1,10 +1,10 @@
 ---
 expectations:
-- binding: Planta
+- binding: Arbusto
   inspection: Inherits:Arbol
-- binding: Planta
+- binding: Arbusto
   inspection: Not:DeclaresMethod:fotosintesis
-- binding: Planta
+- binding: Arbusto
   inspection: Not:DeclaresMethod:daFrutos
-- binding: Planta
+- binding: Arbusto
   inspection: Not:DeclaresMethod:cantidadDeHojas
