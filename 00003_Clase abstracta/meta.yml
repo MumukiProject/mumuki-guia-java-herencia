@@ -1,22 +1,30 @@
 ---
+locale: es
 tags: []
 layout: input_bottom
 editor: multiple_choice
 type: problem
 extra_visible: false
 language: text
+teacher_info: ''
 manual_evaluation: false
 choices:
-- value: No pueden instanciarse objetos de una clase abstracta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: No pueden instanciarse objetos de una clase abstracta
   checked: true
-- value: Una clase abstracta debe tener únicamente métodos abstractos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Una clase abstracta debe tener únicamente métodos abstractos
   checked: false
-- value: "`Jefe` y `Pasante` implementarán la interfaz `Empleado`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Jefe` y `Pasante` implementarán la interfaz `Empleado`"
   checked: false
-- value: "`Jefe` y `Pasante` heredarán de la clase abstracta `Empleado`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Jefe` y `Pasante` heredarán de la clase abstracta `Empleado`"
   checked: true
-- value: El método `trabajar` estará definido en `Empleado`
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El método `trabajar` estará definido en `Empleado`
   checked: true
-- value: El método `trabajar` estará definido en `Jefe` y `Pasante`
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El método `trabajar` estará definido en `Jefe` y `Pasante`
   checked: false
 name: Clase abstracta

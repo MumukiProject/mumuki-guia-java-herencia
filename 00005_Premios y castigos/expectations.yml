@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: Empleado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Empleado
   inspection: DeclaresMethod:faltarAlTrabajo
-- binding: Empleado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Empleado
   inspection: Not:DeclaresMethod:cobrarBono

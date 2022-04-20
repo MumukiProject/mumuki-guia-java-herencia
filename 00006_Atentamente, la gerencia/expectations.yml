@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: Gerente
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Gerente
   inspection: Inherits:Empleado
-- binding: Gerente
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Gerente
   inspection: Not:DeclaresMethod:trabajar
-- binding: Gerente
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Gerente
   inspection: Not:DeclaresMethod:dinero

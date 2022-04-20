@@ -1,20 +1,29 @@
 ---
 expectations:
-- binding: Jefe
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Jefe
   inspection: Inherits:Empleado
-- binding: Pasante
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pasante
   inspection: Inherits:Empleado
-- binding: Pasante
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pasante
   inspection: Not:DeclaresMethod:trabajar
-- binding: Pasante
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pasante
   inspection: Not:DeclaresMethod:dinero
-- binding: Jefe
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Jefe
   inspection: Not:DeclaresMethod:trabajar
-- binding: Jefe
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Jefe
   inspection: Not:DeclaresMethod:dinero
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: DeclaresClass:Empleado
-- binding: Empleado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Empleado
   inspection: DeclaresTypeSignature:sueldoPorHora
-- binding: Empleado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Empleado
   inspection: DeclaresTypeSignature:genteACargo
